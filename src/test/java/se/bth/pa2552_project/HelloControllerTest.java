@@ -1,12 +1,13 @@
 package se.bth.pa2552_project;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertFalse;
 
-class HelloControllerTest {
+public class HelloControllerTest {
 
     @Test
-    void onHelloButtonClick() {
+    public void onHelloButtonClick() {
+        assertFalse(false);
     }
 }
