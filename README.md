@@ -2,7 +2,7 @@
 Test-driven development and CI.
 
 ## Application Basics
-Basic Calculator program with UI.
+Basic Banking program with UI.
 
 **Language**: Java
 **GUI Framework**: JavaFX
