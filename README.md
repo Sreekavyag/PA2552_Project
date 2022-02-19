@@ -5,6 +5,7 @@ Test-driven development and CI.
 Basic Banking program with UI.
 
 **Language**: Java
+
 **GUI Framework**: JavaFX
 
 ## Tools
@@ -15,7 +16,7 @@ Basic Banking program with UI.
 5. **Build Tool**: Maven
 6. **Unit/Component/Integration Testing Framework**: JUnit (4)
 
-7. **System Testing Framework** EyeAutomate or TestFX (not set up yet!)
+7. **System Testing Framework**: EyeAutomate or TestFX (not set up yet!)
 
 ## Setup
 ### 1. Install Intellij IDEA
