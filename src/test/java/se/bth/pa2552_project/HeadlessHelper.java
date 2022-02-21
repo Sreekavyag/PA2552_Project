@@ -11,11 +11,12 @@ public class HeadlessHelper {
             System.setProperty("embedded", "monocle");
             System.setProperty("testfx.headless", "true");
             System.setProperty("prism.order", "sw");
+            System.setProperty("prism.verbose", "true");
 
-            // System.setProperty("prism.text", "t2k");
-            System.setProperty("prism.text", "native");
+            System.setProperty("prism.text", "t2k");
+            // System.setProperty("prism.text", "native");
 
-            System.setProperty("java.awt.headless", "true");
+            // System.setProperty("java.awt.headless", "true");
         }
     }
 }
