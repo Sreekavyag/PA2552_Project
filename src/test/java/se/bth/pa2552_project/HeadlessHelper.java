@@ -2,8 +2,9 @@ package se.bth.pa2552_project;
 
 public class HeadlessHelper {
     public static void setupForHeadlessTesting() {
-        String isRunningOnCi = System.getProperty("CI");
+        String isRunningOnCi = System.getenv("CI");
         if ("true".equalsIgnoreCase(isRunningOnCi)) {
+            System.out.println("Running test headless");
             System.setProperty("monocle.platform", "Headless");
             System.setProperty("testfx.robot", "glass");
             System.setProperty("glass.platform", "Monocle");
