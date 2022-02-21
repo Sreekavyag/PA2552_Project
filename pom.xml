@@ -30,7 +30,7 @@
             <groupId>org.testfx</groupId>
             <artifactId>openjfx-monocle</artifactId>
             <version>jdk-11+26</version>
-            <scope>systemTest</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.controlsfx</groupId>
