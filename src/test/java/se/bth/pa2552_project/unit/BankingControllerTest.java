@@ -1,4 +1,4 @@
-package se.bth.pa2552_project;
+package se.bth.pa2552_project.unit;
 
 import org.junit.jupiter.api.Test;
 

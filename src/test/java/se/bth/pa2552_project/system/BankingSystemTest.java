@@ -1,4 +1,4 @@
-package se.bth.pa2552_project;
+package se.bth.pa2552_project.system;
 
 
 import javafx.scene.control.Button;
@@ -10,6 +10,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.ApplicationTest;
+import se.bth.pa2552_project.BankingApplication;
+import se.bth.pa2552_project.system.utils.HeadlessHelper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

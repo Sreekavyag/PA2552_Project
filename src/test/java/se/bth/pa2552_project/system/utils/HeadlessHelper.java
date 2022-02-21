@@ -1,4 +1,4 @@
-package se.bth.pa2552_project;
+package se.bth.pa2552_project.system.utils;
 
 public class HeadlessHelper {
     public static void setupForHeadlessTesting() {
