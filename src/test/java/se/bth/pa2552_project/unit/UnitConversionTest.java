@@ -9,7 +9,7 @@ class UnitConversionTest {
 
     @Test
     void fahrenheitToCelsius() {
-        //TODO: WRITE UNIT TEST HERE
+        assertEquals(UnitConversion.fahrenheitToCelsius(99),37.22222222222222);
     }
 
     @Test
