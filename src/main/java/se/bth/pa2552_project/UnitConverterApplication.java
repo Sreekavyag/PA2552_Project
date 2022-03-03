@@ -5,13 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
-
 import java.io.IOException;
 import java.util.Locale;
 
-// This is our converter application,
-// when we perform a system test we want to test how a user would navigate and use the application.
-// therefore, each component here will be used in a system test.
+// This is our converter application, and is our main entry point.
+// It loads in the scene, a style sheet, and fetches the inputs,
+// buttons and labels from the fxml file and MainScreenController.
 
 public class UnitConverterApplication extends Application {
     public void start(Stage stage) throws IOException {

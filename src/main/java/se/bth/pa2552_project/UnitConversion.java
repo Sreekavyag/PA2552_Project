@@ -1,7 +1,5 @@
 package se.bth.pa2552_project;
 
-import javafx.event.Event;
-
 // This file will contain all business logic behind the application.
 // In our case it contains the converter functions.
 // The reason we separate it from the application is to keep the code generic,
