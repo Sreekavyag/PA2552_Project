@@ -74,6 +74,6 @@ class UnitConverterSystemTest {
 
         assertThat(celsiusOutput.getText())
                 .isNotEmpty()
-                .isEqualTo("19,44");
+                .isEqualTo("19.44");
     }
 }

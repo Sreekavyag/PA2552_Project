@@ -7,6 +7,7 @@ import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
 import java.io.IOException;
+import java.util.Locale;
 
 // This is our converter application,
 // when we perform a system test we want to test how a user would navigate and use the application.
@@ -14,6 +15,7 @@ import java.io.IOException;
 
 public class UnitConverterApplication extends Application {
     public void start(Stage stage) throws IOException {
+        Locale.setDefault(Locale.ENGLISH);
         FXMLLoader fxmlLoader = new FXMLLoader(UnitConverterApplication.class.getResource("main-screen.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 400);
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
