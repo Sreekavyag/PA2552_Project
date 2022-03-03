@@ -100,7 +100,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>se.bth.pa2552_project/se.bth.pa2552_project.BankingApplication</mainClass>
+                            <mainClass>se.bth.pa2552_project/se.bth.pa2552_project.UnitConverterApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
